@@ -62,7 +62,7 @@ module.exports = {
     ...htmlWebpackPlugins,
     new htmlWebpackPlugin({
       template: path.join(__dirname, "src", "example", "index.html"),
-      filename: "example.html",
+      filename: "index.html",
       chunks: ["example", "karo"],
     }),
   ],
